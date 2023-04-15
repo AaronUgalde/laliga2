@@ -1,0 +1,13 @@
+
+CREATE TABLE IF NOT EXISTS empresa
+(
+nombre VARCHAR(25) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS cliente
+(
+nombre_cliente VARCHAR(25) NOT NULL,
+correo_cliente VARCHAR(25) NOT NULL,
+nombre_empresa VARCHAR(25) NOT NULL
+);
+
